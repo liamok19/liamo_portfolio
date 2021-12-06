@@ -40,11 +40,11 @@ body {
 }
 
 .header-buffer {
-    height: 75px;
+    height: 25px;
 }
 
 .header-container {
-    position: fixed;
+    /* position: fixed; */
  display: flex;
  flex-direction: row;
  border: 2px dashed red;
@@ -95,11 +95,30 @@ a:hover {
     border-top-right-radius: 25px;
 }
 
-.headshot{
+.header-image{
+    margin: 0 auto;
+    max-width: 50%;
+    
+}
+
+.after-2020 {
     margin: 0 auto;
     max-width: 50%;
 }
 
+.pre-2020 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* justify-content: center; commenting this section out. May use this in the future */
+        align-items: center;
+        align-content: center;
+        margin: auto;
+}
+
+.row2 {
+max-width: 10%;
+}
 img{
     border: 10px dashed #065772 ;
     fill-opacity: 50%;
