@@ -13,6 +13,11 @@ body {
     min-height: 100vh ;
 }
 
+nav {
+    display: flex;
+}
+
+
 .header-title {
     width: 50%;
     height: 75px;
@@ -35,7 +40,7 @@ body {
 }
 
 .navbar ul li {
-    padding-left: 75px;
+    padding-left: 35px;
     text-decoration: none;
 }
 
@@ -44,7 +49,7 @@ body {
 }
 
 .header-container {
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     flex-direction: row;
     border: 2px dashed red;
@@ -58,13 +63,14 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-left: 10%;
+    letter-spacing: 5pt;
 }
 
 nav ul li a {
     text-decoration: none;
     text-align: center;
-    /* margin-left: 200px; */
-    padding: 10px;
+    margin-right: 10px;
+    /* padding: 10px; */
     color: #fc575e;
     transition: 0.4s ease-in-out;
 
@@ -90,7 +96,8 @@ a:hover {
     justify-content: flex-start;
     align-items: flex-end;
     align-content: center;
-    
+    clip: rect(110px, 160px, 170px, 60px);
+
 }
 
 .after-2020 {
@@ -134,14 +141,21 @@ img{
 
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
-    main,
+    .header-container,
     nav {
       flex-direction: column;
+      display: flex;
+      
     }
     /* Make the sidebar stack below the body */
     .image01 {
       order: 2;
     }
+    .navbar {
+       display: flex;
+       flex-direction: row;
+    }
+
 }
 .side-section{
 	display: flex;
@@ -150,9 +164,19 @@ img{
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;    
-    padding-bottom: 20px;
+    padding: 25px 0px;
 }
 .side-left{
-    border-right: solid 10px red;
-    margin-right: 10px;
+    border-right: solid 3px red;
+    margin-right: 14px;
+}
+
+.side-right-aboutme p {
+    font-size: 15px;
+    line-height: 15pt;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+}
+
+h3 {
+    margin-right: 100px;
 }
