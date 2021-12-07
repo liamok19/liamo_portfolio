@@ -29,9 +29,9 @@ body {
 }
 
 .navbar ul {
- list-style: none;
- line-height: 75px;
- display: flex;
+    list-style: none;
+    line-height: 75px;
+    display: flex;
 }
 
 .navbar ul li {
@@ -44,13 +44,14 @@ body {
 }
 
 .header-container {
-    /* position: fixed; */
- display: flex;
- flex-direction: row;
- border: 2px dashed red;
- border-top-left-radius: 25px;
- background-color: #ef666e26;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed red;
+    border-top-left-radius: 25px;
+    background-color: #ef666e26;
 }
+
 h2 {
     font-size: 25pt;
     color: #065772;
@@ -58,21 +59,6 @@ h2 {
     text-align: center;
     margin-left: 10%;
 }
-/* assesing leaving this CSS in for later/*  */
-/* nav {
-    display: flex;
-    flex-direction: row;
-
-}
-
-div ul li{
-    display: inline-block;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding:0;
-    margin:0;
-    list-style: none;
-} */ 
 
 nav ul li a {
     text-decoration: none;
@@ -98,29 +84,51 @@ a:hover {
 .header-image{
     margin: 0 auto;
     max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: center;
     
 }
 
 .after-2020 {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
 }
 
 .pre-2020 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        /* justify-content: center; commenting this section out. May use this in the future */
-        align-items: center;
-        align-content: center;
-        margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+    align-items: center;
+    align-content: flex-end;
+    margin: auto;
 }
 
 .row2 {
-max-width: 10%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    margin: 4px auto;
 }
+
+.sub-text {
+    text-align: center;
+}
+
 img{
-    border: 10px dashed #065772 ;
+    /* border: 10px dashed #065772 ; */
     fill-opacity: 50%;
 }
 
@@ -145,6 +153,6 @@ img{
     padding-bottom: 20px;
 }
 .side-left{
-border-right: solid 10px red
-;
+    border-right: solid 10px red;
+    margin-right: 10px;
 }
