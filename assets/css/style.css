@@ -4,12 +4,11 @@
   }
 
 body {
-    background: linear-gradient(45deg, #fc575e, #90d5ec);
     padding-left: 5% ;
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
-    background-color: #D2D2CF;
+    background-color: #fff;
     min-height: 100vh ;
 }
 
@@ -52,9 +51,16 @@ nav {
     /* position: fixed; */
     display: flex;
     flex-direction: row;
-    border: 2px dashed red;
+    border: 2px dashed rgb(99, 94, 94);
     border-top-left-radius: 25px;
-    background-color: #ef666e26;
+    background: linear-gradient(45deg, #fc575e, #90d5ec);
+}
+
+.image01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 h2 {
@@ -79,34 +85,40 @@ a:hover {
     color: rebeccapurple;
 }
 
-.image01 {
-    width: 100%;
-    height: 50%;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
+
+.intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 90px 0px;
+
 }
 
 .header-image{
-    margin: 0 auto;
-    max-width: 50%;
+    border-radius: 315px;
+    /* margin: 0 auto; */
+    max-width: 35%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
     align-items: flex-end;
     align-content: center;
-    clip: rect(110px, 160px, 170px, 60px);
+    justify-content: center;
 
 }
 
 .after-2020 {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 70%;
+    opacity: 85%;
     display: flex;
     flex-direction: row;
     align-content: space-around;
     justify-content: center;
+}
+.after-2020:hover{
+    max-width: 75%;
+    opacity: 100%;
 }
 
 .pre-2020 {
@@ -117,7 +129,10 @@ a:hover {
     align-items: center;
     align-content: flex-end;
     margin: auto;
+    padding-left: 124px;
+    padding-right: 124px;
 }
+
 
 .row2 {
     max-width: 20%;
@@ -130,9 +145,6 @@ a:hover {
     margin: 4px auto;
 }
 
-.sub-text {
-    text-align: center;
-}
 
 img{
     /* border: 10px dashed #065772 ; */
@@ -166,17 +178,37 @@ img{
 	align-content: stretch;    
     padding: 25px 0px;
 }
-.side-left{
-    border-right: solid 3px red;
-    margin-right: 14px;
-}
 
 .side-right-aboutme p {
     font-size: 15px;
-    line-height: 15pt;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+    line-height: 25pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 h3 {
     margin-right: 100px;
+    padding-bottom: 150px;
+}
+
+.contact-details{
+    display: flex;
+    width: 400px;
+    height: 140px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 4px auto;
+    padding-right: 15px;
+}
+
+.social-icon{
+    color: rgb(0, 0, 0);
+    transition: color 0.2s;
+    width: 50px;
+    height: 50px;
+}
+
+
+.social-icon:hover {
+    color: rebeccapurple;
 }
