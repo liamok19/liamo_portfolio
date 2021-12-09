@@ -203,7 +203,16 @@ h3{
     order: 1;
     padding-bottom: 10%;
 }
-
+.after-2020{
+    max-width: 100%;
+}
+.pre-2020, 
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 70%;
+}
 }
 
 .contact-details{
