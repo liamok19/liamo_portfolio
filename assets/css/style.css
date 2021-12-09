@@ -151,6 +151,12 @@ img{
     fill-opacity: 50%;
 }
 
+.side-right-aboutme p {
+    font-size: 15px;
+    line-height: 25pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     .header-container,
@@ -160,7 +166,7 @@ img{
       color: white;
       
     }
-    /* Make the sidebar stack below the body */
+    /* Make the image01 stack above the bio section and ordering the headerimage to sit on top */
     .image01 {
       order: 1;
       display: flex;
@@ -171,12 +177,6 @@ img{
        flex-direction: row;
     }
 
-    /* .intro-section,
-    div,
-    .image01{
-        display: flex;
-        flex-direction: column;
-    } */
 
 }
 .side-section{
@@ -189,15 +189,21 @@ img{
     padding: 25px 0px;
 }
 
-.side-right-aboutme p {
-    font-size: 15px;
-    line-height: 25pt;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
 h3 {
     margin-right: 100px;
     padding-bottom: 150px;
+}
+
+@media screen and (max-width: 768px){
+    .side-section{
+        display: flex;
+        flex-direction: column;
+    }
+h3{
+    order: 1;
+    padding-bottom: 10%;
+}
+
 }
 
 .contact-details{
