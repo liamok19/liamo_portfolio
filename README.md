@@ -42,20 +42,25 @@ The following image demonstrates the web application's default appearance and fu
 
 ## Links
 - Github link for reference is below: 
-https://github.com/liamok19/usyd_code_refactor.git
+https://github.com/liamok19/liamo_portfolio.git
 
 - Website Link for reference is below: 
-https://liamok19.github.io/usyd_code_refactor/
+https://liamok19.github.io/liamo_portfolio/
 
 ## Credits
 
 Based on the research I found the following sources that I would like to credit for this project: 
 | Source        | Platform      | Other  |
 | ------------- |:-------------:| -----:|
+| MONUiXD    | Youtube      |Title: Basic Wireframing - HTML & CSS | 
 | #ask your classmaters | Slack      |Conversations between instructors and classmates |
-| ExpandTheRoom | Youtube       |Title: How to Check Web Accessibility with a Screen Reader and Keyboard|
-| Universal Design | Youtube |Title: Visual Keyboard Focus |
-| Robobunnyattack!    | Youtube      |Title: How do I change the colour of a link when I hover over it?| 
+| MDN Web Docs   | MDN Web Docs       | Title: linear-gradient() |
+| Markdown Guide | Markdown Guide |Title: https://www.markdownguide.org/cheat-sheet/ |
+| dcode    | Youtube      |Title: Easily Add Social Media Icon Links to Your Website with HTML & CSS| 
+| freeCodeCamp.org    | Youtube      |Title: Build and deploy a portfolio website [Full Tutorial Course]| 
+| Lisa Friedrichsen    | Youtube      |Title: Using html 5 wireframe tags| 
+
+
 
 ## License
 - Existing projects and communities, this README file is publicly open for reference and review. 
