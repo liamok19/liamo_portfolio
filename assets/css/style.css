@@ -163,20 +163,31 @@ img{
     nav {
       flex-direction: column;
       display: flex;
-      color: white;
-      
+    }
+    nav ul li a {
+        color: white;
     }
     /* Make the image01 stack above the bio section and ordering the headerimage to sit on top */
     .image01 {
       order: 1;
       display: flex;
       flex-direction: column;
+      text-align: justify;
+
+    }
+    .header-image{
+        justify-content: center;
+        text-align: center;
+        margin-right: 32%;
+
     }
     .navbar {
        display: flex;
        flex-direction: row;
     }
-
+    .side-left {
+        margin-right: 190px;
+    }
 
 }
 .side-section{
