@@ -203,6 +203,7 @@ img{
 h3 {
     margin-right: 100px;
     padding-bottom: 150px;
+    padding-left: 20px;
 }
 
 @media screen and (max-width: 768px){
