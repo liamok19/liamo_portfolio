@@ -33,11 +33,11 @@
 ## Assets
 The following image is a representation of the wireframe I worked towards for this assignment: 
 
-![createAWireframe](../liamo_portfolio/assets/images/createaWireframe.jpg)
+![createAWireframe](./assets/images/createaWireframe.jpg)
 
 The following image demonstrates the web application's default appearance and functionality: 
 
-![Outcome_Image](../liamo_portfolio/assets/images/liamo_portfolio_index.png)
+![Outcome_Image](./assets/images/liamo_portfolio_index.png)
 
 
 ## Links
