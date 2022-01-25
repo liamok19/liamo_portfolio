@@ -60,7 +60,12 @@ Based on the research I found the following sources that I would like to credit 
 | freeCodeCamp.org    | Youtube      |Title: Build and deploy a portfolio website [Full Tutorial Course]| 
 | Lisa Friedrichsen    | Youtube      |Title: Using html 5 wireframe tags| 
 
+### Updating Portfolio
 
+## Strategy 
+| Task       | Progress      | 
+| ------------- |:-------------:| 
+| Research on APIs News and Coin  | Complete | 
 
 ## License
 - Existing projects and communities, this README file is publicly open for reference and review. 
