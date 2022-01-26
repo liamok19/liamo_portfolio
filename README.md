@@ -65,7 +65,7 @@ Based on the research I found the following sources that I would like to credit 
 ## Strategy 
 | Task       | Progress      | 
 | ------------- |:-------------:| 
-| Research on APIs News and Coin  | Complete | 
+|   | In Progress | 
 
 ## License
 - Existing projects and communities, this README file is publicly open for reference and review. 
