@@ -12,11 +12,18 @@
 - The biggest hurdle was the mobile responsiveness but once applying the appropriate media query in my CSS file it adapted the page accordingly. 
 
 ## Table of Contents
+- [Links](#links)
 - [Strategy](#strategy)
 - [Assets](#assets)
-- [Links](#links)
 - [Credits](#credits)
 - [License](#license)
+
+## Links
+- Github link for reference is below: 
+https://github.com/liamok19/liamo_portfolio.git
+
+- Website Link for reference is below: 
+https://liamok19.github.io/liamo_portfolio/
   
 
 ## Strategy - Phase1
@@ -34,24 +41,24 @@
 ## Strategy - Phase 2
 | Task       | Progress      | 
 | ------------- |:-------------:| 
-| Update Portfolio |:Strategy:| 
+| Update Portfolio - Strategy|| 
 |  Display your contact information.  | Inprogress |  
 | Have links to your GitHub profile and LinkedIn profile | Complete |
 | Have a link to a downloadable PDF of your resume | Complete |
 | Display at least 2 examples of student work from either deployed projects or homeworks. | Not Yet started |
 | Projects display must have  Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application | Not Yet Started |  
-| Design |:Strategy:| 
+| Design - Strategy|| 
 | Have a polished, mobile-responsive user interface. | Not Yet Started | 
 | Choose a color palette, apply Bootstrap if you can. (Make sure the font size is large enough to read, and that the colors don't cause eye strain.) | Not Yet Started | 
-| Github |:Strategy:| 
+| Github - Strategy|| 
 | Updated Github details, profile pic, bio, email address, Link to depolyed portfolio, 2 pinned repos, follower developers | In Progress | 
 | Pinned repos to have Title of app, Live link to deployed app, List of technologies used, 1-2 sentences explaining what the app is, 2-3 Screenshots / gifs of the app, License (usually MIT), Contact information for you and any collaborators, commit history | In progress | 
-| Resume' |:Strategy:| 
-| a heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub. | In Progress |
-| Add a technical skills section, with all programming languages and technologies listed | In Progress |
-|  3 of your strongest projects/homework assignments with brief description, languages used, and URL | Not Yet Started | 
-| LinkedIn |:Strategy:| 
-| Linkedin with strong bio, professional photo and links to your github and portfolio | In Progress | 
+| Resume' - Strategy|| 
+| A heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub. | Completed |
+| Add a technical skills section, with all programming languages and technologies listed | Completed |
+|  3 of your strongest projects/homework assignments with brief description, languages used, and URL | Completed | 
+| LinkedIn - Strategy|| 
+| Linkedin with strong bio, professional photo and links to your github and portfolio | Completed | 
 
 
 
@@ -65,12 +72,6 @@ The following image demonstrates the web application's default appearance and fu
 ![Outcome_Image](./assets/images/liamo_portfolio_index.png)
 
 
-## Links
-- Github link for reference is below: 
-https://github.com/liamok19/liamo_portfolio.git
-
-- Website Link for reference is below: 
-https://liamok19.github.io/liamo_portfolio/
 
 ## Credits
 

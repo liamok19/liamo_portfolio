@@ -9,7 +9,7 @@ body {
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
-    background-color: #ccc;
+    background-color: rgb(66, 61, 61);
     min-height: 100vh ;
 }
 
@@ -267,4 +267,9 @@ h3{
 
 .social-icon:hover {
     color: rebeccapurple;
+}
+
+/* //apply resume style to line up with icons in the same container */
+.resume {
+
 }
