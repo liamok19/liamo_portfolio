@@ -17,8 +17,9 @@
 - [Links](#links)
 - [Credits](#credits)
 - [License](#license)
+  
 
-## Strategy
+## Strategy - Phase1
 
 1. Review the objective of the assignment and plan Computational Thinking. Decomposition, Pattern recognition, Abstraction and Algorithim. 
 2. Build a wireframe (image reference below)
@@ -29,6 +30,23 @@
 7. Go back to the goals that you have listed in Step 1 and work through them. 
 8. Throughout the process continue to git commit messages of your updates and push to github. While you're pushing to github make sure your pushing the local folder so your work also versions up to github. 
 9. Once your web page is looking like the objective set by the instructors deploy Github Link. 
+
+## Strategy - Phase 2
+| Task       | Progress      | 
+| ------------- |:-------------:| 
+| Update Portfolio |:Strategy:| 
+|  Display your contact information.  | Inprogress |  
+| Have links to your GitHub profile and LinkedIn profile | Complete |
+| Have a link to a downloadable PDF of your resume | Complete |
+| Display at least 2 examples of student work from either deployed projects or homeworks. | Not Yet started |
+| Projects display must have  Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application | Not Yet Started |  
+| Design |:Strategy:| 
+| Have a polished, mobile-responsive user interface. | Not Yet Started | 
+| Choose a color palette, apply Bootstrap if you can. (Make sure the font size is large enough to read, and that the colors don't cause eye strain.) | Not Yet Started | 
+| Github |:Strategy:| 
+| Updated Github details, profile pic, bio, email address, Link to depolyed portfolio, 2 pinned repos, follower developers | In Progress | 
+| Pinned repos to have Title of app, Live link to deployed app, List of technologies used, 1-2 sentences explaining what the app is, 2-3 Screenshots / gifs of the app, License (usually MIT), Contact information for you and any collaborators, commit history | In progress | 
+
 
 ## Assets
 The following image is a representation of the wireframe I worked towards for this assignment: 
