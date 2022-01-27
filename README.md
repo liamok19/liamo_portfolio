@@ -46,6 +46,7 @@
 | Github |:Strategy:| 
 | Updated Github details, profile pic, bio, email address, Link to depolyed portfolio, 2 pinned repos, follower developers | In Progress | 
 | Pinned repos to have Title of app, Live link to deployed app, List of technologies used, 1-2 sentences explaining what the app is, 2-3 Screenshots / gifs of the app, License (usually MIT), Contact information for you and any collaborators, commit history | In progress | 
+| Resume' |:Strategy:| 
 
 
 ## Assets
