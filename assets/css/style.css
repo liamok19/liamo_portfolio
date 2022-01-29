@@ -70,10 +70,11 @@ nav {
 }
 
 .sub_title {
-    color: floralwhite
+    color: floralwhite;
+    padding-top: 5vh;
 }
 .text_style {
-    color: floralwhite
+    color: white;
 
 }
 /* simple design applications. No variables applied. Pendng further design strategy (not required for assignment)*/
@@ -120,7 +121,7 @@ a:hover {
 }
 
 .body-buffer {
-    margin: 190px;  
+    margin: 130px;  
 }
 
 .intro-section {
@@ -232,7 +233,7 @@ img{
     }
 
 }
-.side-section{
+/* .side-section{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -240,7 +241,7 @@ img{
 	align-items: stretch;
 	align-content: stretch;    
     padding: 25px 0px;
-}
+} */
 
 .bottom_side-section{
 	display: flex;
@@ -250,7 +251,6 @@ img{
 	align-items: stretch;
 	align-content: stretch;    
     padding: 25px 0px;
-    margin-top: 100vh;
 }
 
 .project_img1 {
@@ -342,11 +342,12 @@ h3{
 /* }  */ 
 
 /* need to set original color for the hover function to work below */
-.social-icon{
-    color: rgb(0, 0, 0);
+img .social-icon{
+    color: #fc575e;
     transition: color 0.2s;
-    width: 50px;
-    height: 50px;
+    width: 2px;
+    height: 2px;  
+    margin: 1.5rem;
 }
 
 
@@ -355,16 +356,34 @@ h3{
 }
 
 /* //apply resume style to line up with icons in the same container */
-
+/* 
 #icon_element {
     color: rgb(0, 0, 0);
     transition: color 0.2s;
     width: 50px;
     height: 50px;
-}
+} */
 .fa-file {
     color: rgb(0, 0, 0);
     transition: color 0.2s;
     width: 50px;
     height: 50px;
 }}
+
+.contactrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: floralwhite;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contactBuffer {
+    padding-left: 25vw;
+} 
+
+.footer_buffer {
+    margin-bottom: 5vh;
+}
