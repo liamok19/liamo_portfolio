@@ -9,7 +9,7 @@ body {
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
-    background-color: rgb(66, 61, 61);
+    background-color: rgb(21, 17, 32);
     min-height: 100vh ;
 }
 /* :root {
@@ -104,14 +104,22 @@ nav {
     height: 25px;
 }
 
+.sub_title {
+    color: floralwhite
+}
+.text_style {
+    color: floralwhite
+
+}
 /* simple design applications. No variables applied. Pendng further design strategy (not required for assignment)*/
 .header-container {
     /* position: fixed; */
     display: flex;
     flex-direction: row;
-    border: 2px dashed rgb(99, 94, 94);
+    /* border: 2px dashed rgb(99, 94, 94); */
     border-top-left-radius: 25px;
-    background: linear-gradient(45deg, #fc575e, #90d5ec);
+    border-top-right-radius: 25px;
+    background: linear-gradient(45deg, rgb(21, 17, 32), #1e2c31);
 } 
 
 /* flex direction set to row until mobile device */
@@ -146,6 +154,9 @@ a:hover {
     color: rebeccapurple;
 }
 
+.body-buffer {
+    margin: 190px;  
+}
 
 .intro-section {
     display: flex;
@@ -253,6 +264,8 @@ img{
     }
     .side-left {
         margin-right: 190px;
+        color: white;
+
     }
 
 }
