@@ -2,7 +2,7 @@
 * {
     margin: 0; 
     padding: 0;
-  }
+}
 
 body {
     padding-left: 5% ;
@@ -12,41 +12,6 @@ body {
     background-color: rgb(21, 17, 32);
     min-height: 100vh ;
 }
-/* :root {
-    --primary-font-col: rgb(179, 179, 179);
-    --primary-color: rgb(44, 31, 216);
-    --secondary-color: #30d32a;
-    --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
-    --font-title: #26a69a;
-    --bg-color: #fcfcfc;
-    --bg-dark:#0B111E;  
-    --button-hover-colour: rgb(0,136,169,1.4);
-    --button-colour: #3de5c5;
-}
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    background: var(--bg-dark);
-    color: var(--primary-font-col);
-    text-align: center;
-}
-
-.header-buffer{
-    color: var(--bg-color);
-    background-color: #1f232c;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    border: 2px solid #5d1db680;
-    box-shadow: 0px 0px 40px #4195fc;
-    padding-bottom: 95px;
-    
-
-} */
 
 .portfolioName {
     color: var(--primary-font-col);
@@ -82,7 +47,7 @@ nav {
 .navbar {
     width: 50%;
     display: flex;
-    flex-direction: row-reverse; */
+    flex-direction: row-reverse; 
     /* padding-top: 10% ; */
 }
 /* line height set to the height of "header-title" (above) */
@@ -236,18 +201,18 @@ img{
     /* Use flex-direction to stack the navbar, sidebar, and body */
     .header-container,
     nav {
-      flex-direction: column;
-      display: flex;
+    flex-direction: column;
+    display: flex;
     }
     nav ul li a {
         color: white;
     }
     /* Make the image01 stack above the bio section and ordering the headerimage to sit on top */
     .image01 {
-      order: 1;
-      display: flex;
-      flex-direction: column;
-      text-align: justify;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 
     }
     /* using margin right to push the image into the centre */
@@ -259,9 +224,9 @@ img{
     }
     /* using margin right to push the image into the centre */
     .navbar {
-       display: flex;
-       flex-direction: row;
-    }
+    display: flex;
+    flex-direction: row;
+}
     .side-left {
         margin-right: 190px;
         color: white;
@@ -316,7 +281,7 @@ h3{
     text-decoration: none;
 }
 
-.contact-details{
+/* .contact-details{
     /* display: flex;
     flex-direction: row; */
     /* width: 400px;
@@ -326,7 +291,7 @@ h3{
     align-items: baseline;
     margin: 4px auto;
     padding-right: 15px; */
-}
+/* }  */ 
 
 /* need to set original color for the hover function to work below */
 .social-icon{
@@ -354,4 +319,4 @@ h3{
     transition: color 0.2s;
     width: 50px;
     height: 50px;
-}
+}}
