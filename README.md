@@ -42,7 +42,7 @@ https://liamok19.github.io/liamo_portfolio/
 | Task       | Progress      | 
 | ------------- |:-------------:| 
 | Update Portfolio - Strategy|| 
-|  Display your contact information.  | Inprogress |  
+|  Display your contact information.  | Complete |  
 | Have links to your GitHub profile and LinkedIn profile | Complete |
 | Have a link to a downloadable PDF of your resume | Complete |
 | Display at least 2 examples of student work from either deployed projects or homeworks. | Not Yet started |
