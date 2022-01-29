@@ -275,10 +275,23 @@ img{
     border-bottom: 4px solid floralwhite ;
     
 }
+
 .wd_projects {
     width: 29.3vw;
 }
+.animProduction {
+    border-bottom: 4px solid #fc575e ;
 
+}
+.anim_projects {
+    width: 29.3vw;
+}
+.vfxProduction {
+    border-bottom: 4px solid floralwhite ;
+}
+.vfx_projects {
+    width: 29.3vw;
+}
 h3 {
     margin-right: 100px;
     padding-bottom: 25px;
