@@ -270,19 +270,30 @@ img{
 
 .webDevelopment {
     border-bottom: 4px solid floralwhite ;
+    font-size: 30px;
     
 }
+.projectLogline{
+    font-size: 15px;
 
+}
 .wd_projects {
     width: 20vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+
+}
+.wd_projectContainer {
+    border-bottom: 4px solid #fc575f ;
+    border-radius: 80px;
+    /* border-top: 4px solid #fc575f ; */
+    padding-top: 45px;
 }
 .animProduction {
     border-bottom: 4px solid #fc575e ;
-
+    font-size: 30px;
 }
 .anim_projects {
     width: 20vw;
@@ -291,8 +302,15 @@ img{
     margin-right: auto;
     padding-top: 10px;
 }
-.vfxProduction {
+.anim_projectContainer {
     border-bottom: 4px solid floralwhite ;
+    border-radius: 80px;
+    /* border-top: 4px solid floralwhite ; */
+    padding-top: 45px;
+}
+.vfxProduction {
+    border-bottom: 4px solid floralwhite;
+    font-size: 30px;
 }
 .vfx_projects {
     width: 20vw;
@@ -301,6 +319,21 @@ img{
     margin-right: auto;
     padding-top: 10px;
 }
+.vfx_projectContainer{
+    border-bottom: 4px solid #fc575f ;
+    border-radius: 80px;
+    /* border-top: 4px solid #fc575f ; */
+    padding-top: 45px;
+}
+
+#animProject3 {
+    padding-top: 80px;
+}
+
+#vfxProject3 {
+padding-top: 100px;
+}
+
 h3 {
     margin-right: 100px;
     padding-bottom: 25px;
