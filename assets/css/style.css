@@ -357,6 +357,7 @@ h3 {
         display: flex;
         flex-direction: column;
     }
+}    
     /* using flex direction column to stackimages */
 @media screen and (max-width: 768px){
     .webDevelopment, 
@@ -460,5 +461,8 @@ img .social-icon{
         padding-right: 30px;
     }
 }
-}
+@media screen and (max-width: 768px){
+        .body-buffer{
+        margin: 5px; 
+    }
 }
