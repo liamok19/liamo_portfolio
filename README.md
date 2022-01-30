@@ -42,14 +42,14 @@ https://liamok19.github.io/liamo_portfolio/
 | Task       | Progress      | 
 | ------------- |:-------------:| 
 | Update Portfolio - Strategy|| 
-|  Display your contact information.  | Complete |  
-| Have links to your GitHub profile and LinkedIn profile | Complete |
-| Have a link to a downloadable PDF of your resume | Complete |
-| Display at least 2 examples of student work from either deployed projects or homeworks. | Not Yet started |
-| Projects display must have  Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application | Not Yet Started |  
+|  Display your contact information.  | Completed |  
+| Have links to your GitHub profile and LinkedIn profile | Completed |
+| Have a link to a downloadable PDF of your resume | Completed |
+| Display at least 2 examples of student work from either deployed projects or homeworks. | Completed |
+| Projects display must have  Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application | In Progress |  
 | Design - Strategy|| 
-| Have a polished, mobile-responsive user interface. | Not Yet Started | 
-| Choose a color palette, apply Bootstrap if you can. (Make sure the font size is large enough to read, and that the colors don't cause eye strain.) | Not Yet Started | 
+| Have a polished, mobile-responsive user interface. | In Progress | 
+| Choose a color palette, apply Bootstrap if you can. (Make sure the font size is large enough to read, and that the colors don't cause eye strain.) | Completed | 
 | Github - Strategy|| 
 | Updated Github details, profile pic, bio, email address, Link to depolyed portfolio, 2 pinned repos, follower developers | Completed | 
 | Pinned repos to have Title of app, Live link to deployed app, List of technologies used, 1-2 sentences explaining what the app is, 2-3 Screenshots / gifs of the app, License (usually MIT), Contact information for you and any collaborators, commit history | In progress | 

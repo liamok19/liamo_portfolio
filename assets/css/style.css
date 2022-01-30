@@ -23,10 +23,7 @@ body {
 .col-1 {
     padding-top: 4vh;
 }
-.col-2 {
-    padding-top: 4vh;
 
-}
 
 nav {
     display: flex;
@@ -277,20 +274,32 @@ img{
 }
 
 .wd_projects {
-    width: 29.3vw;
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
 .animProduction {
     border-bottom: 4px solid #fc575e ;
 
 }
 .anim_projects {
-    width: 29.3vw;
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
 .vfxProduction {
     border-bottom: 4px solid floralwhite ;
 }
 .vfx_projects {
-    width: 29.3vw;
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
 h3 {
     margin-right: 100px;
@@ -377,7 +386,6 @@ img .social-icon{
     justify-content: space-evenly;
     color: floralwhite;
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contactBuffer {
