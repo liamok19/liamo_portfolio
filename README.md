@@ -46,7 +46,7 @@ https://liamok19.github.io/liamo_portfolio/
 | Have links to your GitHub profile and LinkedIn profile | Completed |
 | Have a link to a downloadable PDF of your resume | Completed |
 | Display at least 2 examples of student work from either deployed projects or homeworks. | Completed |
-| Projects display must have  Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application | In Progress |  
+| Projects display must have  Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application | Completed |  
 | Design - Strategy|| 
 | Have a polished, mobile-responsive user interface. | In Progress | 
 | Choose a color palette, apply Bootstrap if you can. (Make sure the font size is large enough to read, and that the colors don't cause eye strain.) | Completed | 
