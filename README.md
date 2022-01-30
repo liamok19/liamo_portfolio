@@ -26,7 +26,7 @@ https://github.com/liamok19/liamo_portfolio.git
 https://liamok19.github.io/liamo_portfolio/
   
 
-## Strategy - Phase1
+## Strategy - Phase 1
 
 1. Review the objective of the assignment and plan Computational Thinking. Decomposition, Pattern recognition, Abstraction and Algorithim. 
 2. Build a wireframe (image reference below)
@@ -86,12 +86,6 @@ Based on the research I found the following sources that I would like to credit 
 | freeCodeCamp.org    | Youtube      |Title: Build and deploy a portfolio website [Full Tutorial Course]| 
 | Lisa Friedrichsen    | Youtube      |Title: Using html 5 wireframe tags| 
 
-### Updating Portfolio
-
-## Strategy 
-| Task       | Progress      | 
-| ------------- |:-------------:| 
-|   | In Progress | 
 
 ## License
 - Existing projects and communities, this README file is publicly open for reference and review. 

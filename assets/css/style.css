@@ -307,7 +307,18 @@ img{
     border-radius: 80px;
     /* border-top: 4px solid floralwhite ; */
     padding-top: 45px;
+
 }
+
+#myDIV {
+    border-bottom: 4px solid #fc575f ;
+    animation: mymove 5s infinite;
+
+}
+@keyframes mymove {
+    50% {border-color: floralwhite;}
+}
+
 .vfxProduction {
     border-bottom: 4px solid floralwhite;
     font-size: 30px;
