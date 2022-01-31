@@ -1,3 +1,17 @@
+/* Table Contents
+1. HTML root Properties 
+2 (a). Header Properties
+2 (b). Header Propertes additional styling, animation
+3 (a). Body Properties
+3 (b). Body Propertes additional styling, animation
+4 (a). Footer Properties
+4 (b). Footer Propertes additional styling, animation
+4 (c). Footer: Mobile responsivness media query  */
+
+*/
+
+
+/* 1. HTML root Properties  */
 /* applied to reset the CSS file */
 * {
     margin: 0; 
@@ -13,18 +27,8 @@ body {
     min-height: 100vh ;
 }
 
-.portfolioName {
-    color: var(--primary-font-col);
-    font-size: 60px;
-    text-align: center;
-    /* position: sticky; */
-
-}
-.col-1 {
-    padding-top: 4vh;
-}
-
-
+/* 2 (a). Header Properties */
+/* container properties for navbar */
 nav {
     display: flex;
 }
@@ -66,14 +70,6 @@ nav {
     height: 25px;
 }
 
-.sub_title {
-    color: floralwhite;
-    padding-top: 5vh;
-}
-.text_style {
-    color: white;
-
-}
 /* simple design applications. No variables applied. Pendng further design strategy (not required for assignment)*/
 .header-container {
     /* position: fixed; */
@@ -92,6 +88,17 @@ nav {
     justify-content: space-evenly;
     align-items: flex-end;
 }
+
+/* 2 (b). Header Propertes additional styling, animation */
+
+.sub_title {
+    color: floralwhite;
+    padding-top: 5vh;
+}
+.text_style {
+    color: white;
+
+}
 /* simple design applications. No variables applied. Pendng further design strategy (not required for assignment)*/
 /* letter spacing applied for visual aid */
 h2 {
@@ -102,6 +109,13 @@ h2 {
     margin-left: 10%;
     letter-spacing: 5pt;
 }
+
+h3 {
+    margin-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+
 /* animated tranistion applied set so hover can be applied below */
 nav ul li a {
     text-decoration: none;
@@ -117,6 +131,19 @@ a:hover {
     color: rebeccapurple;
 }
 
+img{
+    /* border: 10px dashed #065772 ; */
+    fill-opacity: 50%;
+}
+
+.side-right-aboutme p {
+    font-size: 15px;
+    line-height: 25pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* 3 (a). Body Properties */
+
 .body-buffer {
     margin: 130px;  
 }
@@ -129,6 +156,7 @@ a:hover {
 
 }
 
+/* headshot of case study. Simple border radius applied to iplement concept design. */
 .header-image{
     border-radius: 315px;
     /* margin: 0 auto; */
@@ -140,57 +168,6 @@ a:hover {
     align-content: center;
     justify-content: center;
 
-}
-/* 1 image to be larger than the others therefore it's set to a higher width */
-/* opacity set to low and size set low for hover function below */
-.after-2020 {
-    margin: 0 auto;
-    max-width: 70%;
-    opacity: 85%;
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: center;
-}
-
-.after-2020:hover{
-    max-width: 75%;
-    opacity: 100%;
-}
-
-/* padding left/right applie for extra spacing. aligned according to when the top image (image01 .after-2020) is at full width */
-.pre-2020 {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.extra_projects {
-    width: 25px;
-    height: 25px;
-}
-
-.row2 {
-    max-width: 20%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-end;
-    margin: 4px auto;
-}
-
-
-img{
-    /* border: 10px dashed #065772 ; */
-    fill-opacity: 50%;
-}
-
-.side-right-aboutme p {
-    font-size: 15px;
-    line-height: 25pt;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 @media screen and (max-width: 768px) {
@@ -231,34 +208,8 @@ img{
     }
 
 }
-/* .side-section{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;    
-    padding: 25px 0px;
-} */
 
-/* .bottom_side-section{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;    
-    padding: 25px 0px;
-} */
-
-/* .project_img1 {
-    width: 25vw;
-}
-.project_img2 {
-    width: 25vw;
-    margin-left: 35vw;
-} */
-
+/* Main container for work projects. Simple styling and container set to row-wrap. Padding left to push a bit more center */
 .titlerow {
     display: flex;
     flex-direction: row;
@@ -269,6 +220,7 @@ img{
     padding-left: 20px;
 }
 
+/* title underline with a solid border and font size property */
 .webDevelopment {
     border-bottom: 4px solid floralwhite ;
     font-size: 30px;
@@ -278,6 +230,7 @@ img{
     font-size: 15px;
 
 }
+/* column attribute applied in bootstrap but margin left/right are set to auto for responsivness. Cursor pointer applied for visual understanding that the user can click on the element. */
 .wd_projects {
     width: 20vw;
     display: block;
@@ -287,21 +240,29 @@ img{
     cursor:pointer;
 
 }
+/* when the cursor hovers over this container it will grow in size. The growth speed has a property aswell */
 .wd_projects:hover{
     transition: 500ms;
     transform: scale(1.3);
     
 }
+/* default border colour and border radius. Padding top to add buffer visually */
+
 .wd_projectContainer {
     border-top: 4px solid #fc575f38 ;
     border-radius: 80px;
     /* border-top: 4px solid #fc575f ; */
     padding-top: 45px;
 }
+
+/* title underline with a solid border and font size property */
 .animProduction {
     border-bottom: 4px solid #fc575e ;
     font-size: 30px;
 }
+
+/* column attribute applied in bootstrap but margin left/right are set to auto for responsivness. Cursor pointer applied for visual understanding that the user can click on the element. */
+
 .anim_projects {
     width: 20vw;
     display: block;
@@ -310,11 +271,14 @@ img{
     padding-top: 10px;
     cursor:pointer;
 }
+
+/* when the cursor hovers over this container it will grow in size. The growth speed has a property aswell */
 .anim_projects:hover{
     transition: 500ms;
     transform: scale(1.3);
-    
 }
+
+/* default border colour and border radius. Padding top to add buffer visually */
 .anim_projectContainer {
     border-bottom: 4px solid rgba(255, 250, 240, 0.205) ;
     border-radius: 80px;
@@ -323,19 +287,25 @@ img{
 
 }
 
+/* deafult property for the border colour */
 #myDIV {
     border-bottom: 4px solid #fc575f36 ;
     animation: mymove 5s infinite;
 
 }
+/* animation to the border colour applied to all the title heads */
 @keyframes mymove {
     50% {border-color: rgba(255, 250, 240, 0.205);}
 }
 
+/* title underline with a solid border and font size property */
 .vfxProduction {
     border-bottom: 4px solid floralwhite;
     font-size: 30px;
 }
+
+/* column attribute applied in bootstrap but margin left/right are set to auto for responsivness. Cursor pointer applied for visual understanding that the user can click on the element. */
+
 .vfx_projects {
     width: 20vw;
     display: block;
@@ -344,11 +314,15 @@ img{
     padding-top: 10px;
     cursor:pointer;
 }
+
+/* when the cursor hovers over this container it will grow in size. The growth speed has a property aswell */
 .vfx_projects:hover{
     transition: 500ms;
     transform: scale(1.3);
-    
+
 }
+/* default border colour and border radius. Padding top to add buffer visually */
+
 .vfx_projectContainer{
     border-top: 4px solid #fc575f38 ;
     border-radius: 80px;
@@ -356,27 +330,24 @@ img{
     padding-top: 45px;
 }
 
+/* addition padding to one element. */
 #animProject3 {
     padding-top: 80px;
 }
 
+/* addition padding to one element. */
 #vfxProject3 {
 padding-top: 100px;
 }
 
-h3 {
-    margin-right: 100px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-}
-
+/* 3 (c). body: Mobile responsivness media query */
 @media screen and (max-width: 768px){
     .side-section{
         display: flex;
         flex-direction: column;
     }
 }    
-    /* using flex direction column to stackimages */
+/* using flex direction column to stackimages an the details added to the container*/
 @media screen and (max-width: 768px){
     .webDevelopment, 
     .wd_projectContainer, 
@@ -388,11 +359,7 @@ h3 {
     }
 } 
 
-h3{
-    order: 1;
-    padding-bottom: 10%;
-}
-    /* applying max width. Hover function won't set on mobile device */
+    /* applying max width. Hover function won't set on mobile device
 .after-2020{
     max-width: 100%;
 }
@@ -403,55 +370,19 @@ h3{
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 70%;
-}
+} */
 
+/* 4 (a). Footer Properties */
+/* buffer for column 1 bootstrap properties in the Contact container */
+.col-1 {
+    padding-top: 4vh;
+}
 
 .side-right-contact{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-decoration: none;
-}
-
-/* .contact-details{
-    /* display: flex;
-    flex-direction: row; */
-    /* width: 400px;
-    height: 140px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-    margin: 4px auto;
-    padding-right: 15px; */
-/* }  */ 
-
-/* need to set original color for the hover function to work below */
-img .social-icon{
-    color: #fc575e;
-    transition: color 0.2s;
-    width: 2px;
-    height: 2px;  
-    margin: 1.5rem;
-}
-
-
-.social-icon:hover {
-    color: rebeccapurple;
-}
-
-/* //apply resume style to line up with icons in the same container */
-/* 
-#icon_element {
-    color: rgb(0, 0, 0);
-    transition: color 0.2s;
-    width: 50px;
-    height: 50px;
-} */
-.fa-file {
-    color: rgb(0, 0, 0);
-    transition: color 0.2s;
-    width: 50px;
-    height: 50px;
 }
 
 .contactrow{
@@ -470,6 +401,32 @@ img .social-icon{
 .footer_buffer {
     margin-bottom: 5vh;
 }
+
+
+/* 4 (b). Footer Propertes additional styling, animation */
+/* need to set original color for the hover function to work below */
+img .social-icon{
+    color: #fc575e;
+    transition: color 0.2s;
+    width: 2px;
+    height: 2px;  
+    margin: 1.5rem;
+}
+
+/*  */
+.social-icon:hover {
+    color: rebeccapurple;
+}
+
+.fa-file {
+    color: rgb(0, 0, 0);
+    transition: color 0.2s;
+    width: 50px;
+    height: 50px;
+}
+
+/* 4 (c). Footer: Mobile responsivness media query  */
+
 @media screen and (max-width: 768px){
     .contactrow{
         display: flex;
