@@ -284,10 +284,16 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+    cursor:pointer;
 
 }
+.wd_projects:hover{
+    transition: 500ms;
+    transform: scale(1.3);
+    
+}
 .wd_projectContainer {
-    border-bottom: 4px solid #fc575f ;
+    border-top: 4px solid #fc575f38 ;
     border-radius: 80px;
     /* border-top: 4px solid #fc575f ; */
     padding-top: 45px;
@@ -302,9 +308,15 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+    cursor:pointer;
+}
+.anim_projects:hover{
+    transition: 500ms;
+    transform: scale(1.3);
+    
 }
 .anim_projectContainer {
-    border-bottom: 4px solid floralwhite ;
+    border-bottom: 4px solid rgba(255, 250, 240, 0.205) ;
     border-radius: 80px;
     /* border-top: 4px solid floralwhite ; */
     padding-top: 45px;
@@ -312,12 +324,12 @@ img{
 }
 
 #myDIV {
-    border-bottom: 4px solid #fc575f ;
+    border-bottom: 4px solid #fc575f36 ;
     animation: mymove 5s infinite;
 
 }
 @keyframes mymove {
-    50% {border-color: floralwhite;}
+    50% {border-color: rgba(255, 250, 240, 0.205);}
 }
 
 .vfxProduction {
@@ -330,9 +342,15 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+    cursor:pointer;
+}
+.vfx_projects:hover{
+    transition: 500ms;
+    transform: scale(1.3);
+    
 }
 .vfx_projectContainer{
-    border-bottom: 4px solid #fc575f ;
+    border-top: 4px solid #fc575f38 ;
     border-radius: 80px;
     /* border-top: 4px solid #fc575f ; */
     padding-top: 45px;

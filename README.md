@@ -59,7 +59,7 @@ https://liamok19.github.io/liamo_portfolio/
 | Choose a color palette, apply Bootstrap if you can. (Make sure the font size is large enough to read, and that the colors don't cause eye strain.) | Completed | 
 | Github - Strategy|| 
 | Updated Github details, profile pic, bio, email address, Link to depolyed portfolio, 2 pinned repos, follow developers | Completed | 
-| Pinned repos to have Title of app, Live link to deployed app, List of technologies used, 1-2 sentences explaining what the app is, 2-3 Screenshots / gifs of the app, License (usually MIT), Contact information for you and any collaborators, commit history | In progress | 
+| Pinned repos to have Title of app, Live link to deployed app, List of technologies used, 1-2 sentences explaining what the app is, 2-3 Screenshots / gifs of the app, License (usually MIT), Contact information for you and any collaborators, commit history | Completed | 
 | Resume' - Strategy|| 
 | A heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub. | Completed |
 | Add a technical skills section, with all programming languages and technologies listed | Completed |
