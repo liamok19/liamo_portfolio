@@ -5,16 +5,18 @@
 - A wireframe process will need to be created before implementation
 - It was important that this review included a web accesibility and easy access for inclusive purposes. 
 - The web page must:
-- - Look good on a mobile device as well as desktop
-- - Should have a navigation at the top.  When clicking these links it should take you to the relevant section on the page
-- - Should have information about me (a bio)
-- - Should have one main project link that is bigger than the others
+    - Look good on a mobile device as well as desktop
+    - Should have a navigation at the top.  When clicking these links it should take you to the relevant section on the page
+    - Should have information about me (a bio)
+    - Should have one main project link that is bigger than the others
 - The biggest hurdle was the mobile responsiveness but once applying the appropriate media query in my CSS file it adapted the page accordingly. 
 
 ## Table of Contents
 - [Links](#links)
-- [Strategy](#strategy)
+- [Strategy - Phase 1](#Phase1)
+- [Strategy - Phase 2](#Phase2)
 - [Assets](#assets)
+- [Technologies Implemented](#Technologies)
 - [Credits](#credits)
 - [License](#license)
 
@@ -22,12 +24,15 @@
 - Github link for reference is below: 
 https://github.com/liamok19/liamo_portfolio.git
 
+        Contact Information in the below link:
 - Website Link for reference is below: 
 https://liamok19.github.io/liamo_portfolio/
+
+
   
 
-## Strategy - Phase 1
-
+## Phase1
+        Strategy (Timestamp - November 1 week)
 1. Review the objective of the assignment and plan Computational Thinking. Decomposition, Pattern recognition, Abstraction and Algorithim. 
 2. Build a wireframe (image reference below)
 3. Create a repository first via github. Whilst including the new repo make sure that it's set to 'Public' and that you have the READme file attached. 
@@ -38,7 +43,9 @@ https://liamok19.github.io/liamo_portfolio/
 8. Throughout the process continue to git commit messages of your updates and push to github. While you're pushing to github make sure your pushing the local folder so your work also versions up to github. 
 9. Once your web page is looking like the objective set by the instructors deploy Github Link. 
 
-## Strategy - Phase 2
+## Phase2
+        Strategy (Timestamp - January 1 week)
+
 | Task       | Progress      | 
 | ------------- |:-------------:| 
 | Update Portfolio - Strategy|| 
@@ -48,10 +55,10 @@ https://liamok19.github.io/liamo_portfolio/
 | Display at least 2 examples of student work from either deployed projects or homeworks. | Completed |
 | Projects display must have  Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application | Completed |  
 | Design - Strategy|| 
-| Have a polished, mobile-responsive user interface. | In Progress | 
+| Have a polished, mobile-responsive user interface. | Completed | 
 | Choose a color palette, apply Bootstrap if you can. (Make sure the font size is large enough to read, and that the colors don't cause eye strain.) | Completed | 
 | Github - Strategy|| 
-| Updated Github details, profile pic, bio, email address, Link to depolyed portfolio, 2 pinned repos, follower developers | Completed | 
+| Updated Github details, profile pic, bio, email address, Link to depolyed portfolio, 2 pinned repos, follow developers | Completed | 
 | Pinned repos to have Title of app, Live link to deployed app, List of technologies used, 1-2 sentences explaining what the app is, 2-3 Screenshots / gifs of the app, License (usually MIT), Contact information for you and any collaborators, commit history | In progress | 
 | Resume' - Strategy|| 
 | A heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub. | Completed |
@@ -71,7 +78,12 @@ The following image demonstrates the web application's default appearance and fu
 
 ![Outcome_Image](./assets/images/liamo_portfolio_index.png)
 
-
+## Technologies:
+- HTML 
+- CSS
+- JavaScript 
+- Bootstrap 
+- Github
 
 ## Credits
 
